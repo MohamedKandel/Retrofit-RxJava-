@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Retrofit -RxJava-</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comments">Comments</string>
+    <string name="username">username</string>
+    <string name="post_here">POST HERE</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="facebook">Facebook</string>
+</resources>

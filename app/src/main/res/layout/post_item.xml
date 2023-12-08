@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_7ssp"
+    android:background="@drawable/post_layout_shape">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_userName"
+        android:text="@string/username"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_here"
+        android:textSize="@dimen/_14ssp"
+        android:layout_margin="@dimen/_7ssp"
+        android:id="@+id/txt_post_title"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_here"
+        android:textSize="@dimen/_11ssp"
+        android:layout_margin="@dimen/_10ssp"
+        android:id="@+id/txt_post_body"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_comments"
+        android:text="@string/comments"
+        android:textSize="@dimen/_11ssp"
+        android:textColor="#00f"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/_7ssp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
